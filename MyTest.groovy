@@ -23,6 +23,6 @@ class DayThreeTest extends GroovyTestCase {
     //when:
     Integer housesDeliveryThree = DayThree.HousesDelivery(directions)
     //then:
-    assert housesDeliver  yThree == 2
+    assert housesDeliveryThree == 2
   }
 }
