@@ -1,6 +1,6 @@
 # Advent_of_Code
 
-// para correr las pruebas
+// compile proyect
 # groovy MyTest
 
 // gradle 
