@@ -25,4 +25,15 @@ class DayThreeTest extends GroovyTestCase {
     //then:
     assert housesDeliveryThree == 2
   }
+  void testDayThreeFromFile() {
+    //Given:
+    File file = new File("./ejercicioSanta.txt")
+    List<String> lines = file.readLines()
+    String directions = lines.join()
+    //when:
+    def directoriesDeliveryHose = DayThree.HousesDelivery(directions)
+    //then:
+    assert directoriesDeliveryHose == 2592
+
+  }
 }
